@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "gateway",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"istream": "cpp",
+			"ostream": "cpp",
+			"arduino.h": "c",
+			"*.tcc": "cpp",
+			"system_error": "cpp",
+			"regex": "cpp",
+			"array": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"initializer_list": "cpp",
+			"cstring": "cpp"
+		}
+	}
+}
