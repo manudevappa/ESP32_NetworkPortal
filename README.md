@@ -19,9 +19,9 @@ Software Requirments :
 - [VSCode] - It's recommended to use VScode for development if given a chance between Arduino IDE and VsCode. because it supports PlatformIO! and all made super easy.
 - [PlatformIO] - VSCode Extension (Support hundreds of boards)
 - libraries - 
-    esphome/AsyncTCP-esphome@^1.2.2
-	me-no-dev/ESPAsyncTCP@^1.2.2
-	ottowinter/ESPAsyncWebServer-esphome@^2.1.0
+	- esphome/AsyncTCP-esphome@^1.2.2
+	- me-no-dev/ESPAsyncTCP@^1.2.2
+	- ottowinter/ESPAsyncWebServer-esphome@^2.1.0
 ### Supported Hardware
 - [ESP32 or ESP8266]
 
