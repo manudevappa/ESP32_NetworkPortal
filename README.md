@@ -24,5 +24,5 @@ Software Requirments :
 - libraries - There are two libraries you need to install. Please search on PlatformIO Library section. Type header file name without .h extention you will get latest Library file and you can add that to current project.
 
 Hardware
-- [ESP32 or ESP8200] - You can get it from Local shop or purchase online and Micro USB cable.
+- [ESP32 or ESP8266]
 
