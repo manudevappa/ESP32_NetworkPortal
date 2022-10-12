@@ -1,11 +1,11 @@
 /**
  * @file networkConfig.h
  * @author Manu Devappa (dmanu.techie@gmail.com)
- * @brief Source of network configuration
+ * @brief network configuration
  * @version 0.1
- * @date 30-12-2-21
+ * @date 12-10-2022
  *
- * @copyright Copyright (c) 2021
+ * @copyright Copyright (c) 2022
  *
  *  Reference
  * https://randomnerdtutorials.com/esp32-esp8266-input-data-html-form/ Reference
@@ -15,9 +15,19 @@
 /*=============================================================================
  *                                 Includes
  *==============================================================================*/
+#include <Arduino.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+#include <EEPROM.h>
 
-#include "deviceCommon.h"
+#define EEPROM_SIZE     50
+#define CPU_CORE        1
+#define DNS_ERROR       1
+#define EEPROM_ERROR    2
+#define ALL_OK          100
 
+extern bool network_connected;
 /*
  * WiFi Library Include
  *
@@ -93,6 +103,16 @@ button {
 /*=============================================================================
  *                             Function Declarations
  *==============================================================================*/
+
+/**
+ * @brief initialize the EEPROM
+ *
+ * @return nothing
+ */
+
+void init_eeprom(int);
+
+
 /**
  * @brief initialize and start Web page
  *
@@ -100,3 +120,4 @@ button {
  */
 
 void web_init();
+
