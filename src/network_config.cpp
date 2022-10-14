@@ -189,7 +189,8 @@ static int access_point_init()
     
     server.onNotFound(notFound);
     server.begin();             // Begin the Server
-    Serial.println("Server Begin");
+    Serial.print("Server Begin Search for ");
+    Serial.println(ap_ssid);
     return ALL_OK;
 }
 
