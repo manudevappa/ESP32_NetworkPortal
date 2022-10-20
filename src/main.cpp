@@ -1,6 +1,6 @@
 /**
  * @file main.cpp
- * @author Manu Devappa (dmanu.techie@@gmail.com)
+ * @author Manu Devappa (dmanu.techie@gmail.com)
  * @brief Implementation Access point Mode and Station Mode
  *        Using FreeRtos
  * @version 0.1
